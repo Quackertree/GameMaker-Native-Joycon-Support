@@ -13,4 +13,12 @@ Features:
 - Control each of the four LEDs on the Joycon individually
 - Additional raw data pull functions for more precise measurements or wanted extended functionality
 
+Please be aware that the Joycons do NOT individually keep track of their pitch, roll and yaw by default, which means you cannot perform tracking like e.g. a virtual reality controller. Although theoretically extractable information from the accelerometer and gyroscope paired together, this extension does not support such features!
+
+It is highly recommended to look at the example project in order to understand the functions.
+
+Be aware some functions may seem to return unexpected values, but this is just the way the Joycon operates. More information on this subject can be found in the example project.
+
+If you find any significant bugs, please let me know!
+
 Credit to: https://github.com/mfosse/JoyCon-Driver/blob/master/joycon-driver/src/main.cpp for figuring out a lot of stuff, allowing me to put it together in a DLL for GM:S.
