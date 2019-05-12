@@ -2,6 +2,8 @@
 
 This is an extension for Game Maker Studio 1.4, including source, which allows you to pair your Joycon to your Windows machine and read the input from it.
 
+TO USE THIS EXTENSION, YOU MUST HAVE ALREADY PAIRED THE JOYCONS TO YOUR MACHINE VIA BLUETOOTH. PLEASE CONSULT TUTORIALS ONLINE ON HOW TO DO THIS! THIS EXTENSION DOES NOT DETECT AND PAIR THE JOYCONS FOR YOU!
+
 Note: This is made for homebrews who want to toy with the Joycon. Therefore, the input received from the Joycon may not be perfect. If you seek perfect synchronisation, get an actual Nintendo Dev Account.
 
 Features:
